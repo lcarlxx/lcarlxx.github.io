@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<title>MARVEL STUDIOS</title>
+<style>
+body {
+    color: white;
+}
+.w3-container {
+    font-size: 20px;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body background="Intro.gif" style="background-position: fixed;">
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-10large"
+  onclick="w3_close()">&times;</button>
+  <a href="HOME.html" class="w3-bar-item w3-button">HOME</a>
+  <a href="I.html" class="w3-bar-item w3-button">PHASE I</a>
+  <a href="II.html" class="w3-bar-item w3-button">PHASE II</a>
+  <a href="III.html" class="w3-bar-item w3-button">PHASE III</a>
+  <a href="IV.html" class="w3-bar-item w3-button">PHASE IV</a>
+  <a href="V.html" class="w3-bar-item w3-button">PHASE V</a>
+  <a href="VI.html" class="w3-bar-item w3-button">PHASE VI</a>
+  <a href="Film.html" class="w3-bar-item w3-button">FILMMAKERS</a>
+  <a href="https://www.marvel.com/" class="w3-bar-item w3-button">OFFICIAL WEBSITE</a>
+</div>
+
+<div id="main">
+
+<div class="w3-black">
+  <button id="openNav" class="w3-button w3-black w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+   <center><img src="MCU.png" style = "width:421px; height:82px;"/></center>
+  </div>
+</div>
+
+
+<div class="w3-container">
+    <i><p>Marvel Studios (originally known as Marvel Films from 1993 to 1996), is an American film and television production company that is a subsidiary of Walt Disney Studios, a division of the Walt Disney Company. Marvel Studios produces the Marvel Cinematic Universe films and series, based on characters that appear in Marvel Comics publications.</p>
+        <p>The Marvel Cinematic Universe, led by President  <a href="https://www.imdb.com/name/nm0270559/"><b><i>Kevin Feige</i></b></a>, is one of todays largest franchises and is the biggest cinematic universe alive with more than 30 films and 10 television series and is tracking to make more than 25 more projects by the end of 2026.</p>
+        <p>The films are classified into "Phases" which is probably an endevour to make it easier to understand the universe and not to forget the placement of a film/project in the universe timeline.</p>
+        <ul>
+            <a href = ""><u><h3><i>THE INFINITY SAGA</i></h3></u></a>
+        <li><b>Phase I</b> - Introduction of the mainline Avengers and official set up of the MCU.</li>
+        <li><b>Phase II</b> - Aftermath of the first Avengers film with continuing stories of our original Avengers whilst also expanding the MCU with the introduction of more characters.</li>
+        <li><b>Phase III</b> - Continuing stories for many Avengers and deeper introduction of characters already set up. Official beginning and conclusion of The Infinity War/Saga.</li>
+        <a href = ""><u><h3><i>THE MULTIVERSE SAGA</i></h3></u></a>
+        <li><b>Phase IV</b> - Aftermath of Avengers Endgame and introduction of new possible candidate Avengers and replacements for the fallen original Avengers. Official beginning of the Multiverse Saga.</li>
+        <li><b>Phase V</b> - Official introduction of Kang: The Conquerer and conclusion/beginning of previously set up stories.</li>
+        <li><b>Phase VI</b> - NO OFFICIAL INFORMATION</li>
+        </i>
+</div>
+
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "15%";
+  document.getElementById("mySidebar").style.width = "15%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("mySidebar").style.fontSize = "25px";
+  document.getElementById("mySidebar").style.backgroundColor = "black";
+  document.getElementById("mySidebar").style.color = "red";
+  document.getElementById("mySidebar").style.textAlign = "centre";
+  document.getElementById("mySidebar").style.alignItems = "center";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+</body>
+</html>
