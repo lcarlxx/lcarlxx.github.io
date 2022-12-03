@@ -1,0 +1,12 @@
+<html>
+<head><title>WAKANDA FOREVER</title></head>
+<style>
+body {
+font-family: algerian;
+color: purple;
+}
+</style>
+<body background = "BPCC.jpg" background-size = "contain">
+<marquee><h1> WAKANDA FOREVER <H1></marquee>
+</body>
+</html
